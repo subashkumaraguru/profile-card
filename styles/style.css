@@ -1,0 +1,92 @@
+:root {
+  font-size: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(185, 75%, 39%);
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.bio > .profile-image {
+  background-color: white;
+  border-radius: 50%;
+  margin-top: -50px;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.city {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 15px;
+}
+
+.profile-info > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  margin-right: 10px;
+}
+
+.age {
+  vertical-align: middle;
+}
+
+.page-ctr {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100vh;
+}
+
+.personal-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5px;
+  width: 100%;
+}
+.profile-card {
+  border-radius: 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.profile-card > .bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-image > img {
+  border-radius: 50%;
+}
+
+.value {
+  font-weight: 700;
+}
+
+.category {
+  font-weight: 200;
+  font-size: 12px;
+}
